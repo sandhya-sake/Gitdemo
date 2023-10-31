@@ -28,6 +28,12 @@ public class Mainsteps {
 	@Then("search Iphone to valodate.")
 	public void search_iphone_to_valodate() {
 	    // Write code here that turns the phrase above into concrete actions
-	   System.out.println("validation pass");
+	   System.out.println("search Iphone to valodate");
+	}
+	
+	@Then("check validation pass or failed")
+	public void check_validation_pass_or_failed() {
+	    // Write code here that turns the phrase above into concrete actions
+	    System.out.println("check validation pass or failed");
 	}
 }

@@ -7,5 +7,7 @@ Feature: Ebay Home page scenario
     When I click on advanced link
     Then I navigate to advanced search page
     Then search Iphone to valodate.
+    Then check validation pass or failed
+    
     
   
