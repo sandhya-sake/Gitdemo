@@ -24,5 +24,10 @@ public class Mainsteps {
 	   // throw new io.cucumber.java.PendingException();
 		System.out.println("User navigate to advanced search page");
 	}
-
+  
+	@Then("search Iphone to valodate.")
+	public void search_iphone_to_valodate() {
+	    // Write code here that turns the phrase above into concrete actions
+	   System.out.println("validation pass");
+	}
 }
